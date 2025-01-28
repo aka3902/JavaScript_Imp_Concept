@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.outer {
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+.inner {
+    padding: 20px;
+    background-color: lightgreen;
+    border: 2px solid green;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkorange;
+}
